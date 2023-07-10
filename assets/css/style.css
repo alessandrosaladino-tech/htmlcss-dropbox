@@ -19,6 +19,13 @@ body {
     --dp-jumbo: #b4d0e7;
 
 }
+
+button {
+    background-color: var(--dp-button);
+    border: none;
+    color: white;
+    padding: 5px;
+}
 /*end common*/
 
 /*header*/
@@ -52,7 +59,51 @@ nav {
     width: 55px;
     color: white;
     padding: 5px;
+    margin:auto;
 }
 
 /*end header*/
 
+/*Main*/
+
+.jumbotron {
+    background-color: var(--dp-jumbo);
+    height: 470px;
+}
+
+.jumbotron h1 {
+    font-size: 50px;
+    font-weight: 1000;
+    padding-top: 50px;
+}
+.container-j {
+    width: 60%;
+    margin: auto;
+}
+
+.col-j-l {
+    width: 35%;
+    height: 300px;
+    margin-top: 50px;
+    font-size: 12px;
+}
+
+.col-j-l p,button {
+    margin-bottom: 15px;
+}
+
+.col-j-b {
+    width: 65%;
+    height: 300px;
+}
+
+.col-j-b img {
+   width: 100%;
+   margin-top: 50px;
+  
+}
+
+#arrow {
+    font-size: 25px;
+    margin-top: 28px;
+}
