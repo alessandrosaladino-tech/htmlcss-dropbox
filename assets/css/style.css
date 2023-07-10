@@ -26,6 +26,19 @@ button {
     color: white;
     padding: 5px;
 }
+
+.container {
+    width: 60%;
+    margin: auto;
+}
+
+.iblock {
+    display: inline-block;
+}
+
+.dinl {
+    display: inline;
+}
 /*end common*/
 
 /*header*/
@@ -64,8 +77,9 @@ nav {
 
 /*end header*/
 
-/*Main*/
+/*--------Main----------*/
 
+/*---Jumbotron---*/
 .jumbotron {
     background-color: var(--dp-jumbo);
     height: 470px;
@@ -107,3 +121,50 @@ nav {
     font-size: 25px;
     margin-top: 28px;
 }
+/*---End Jumbotron---*/
+
+/*---Section Find---*/
+.find {
+    height: 960px;
+}
+
+.title-1 {
+    height: 20%;
+}
+.find h2 {
+    text-align: left;
+    margin-top: 30px;
+    padding-top: 70px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+.bill {
+    display: inline-block;
+}
+
+.find  input {
+    margin-left: 40px;
+}
+
+.column-1 {
+    height: 60%;
+}
+.row-find {
+    width: 100%;
+    height: 100%;
+}
+
+.col-find-3 {
+    width: calc(100% / 3);
+}
+
+
+
+
+/*---End Section Find---*/
+
+
+
+/*--------End Main----------*/
