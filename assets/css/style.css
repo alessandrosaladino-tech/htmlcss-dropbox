@@ -14,8 +14,22 @@ body {
 }
 
 :root {
-    --dp-button: #0061ff;
     --dp-jumbo: #b4d0e7;
+    --dp-button: #0061ff;
+    --dp-section: #b4d0e7;
+    --dp-footer: #000000;
+    --dp-page: #ffffff;
+    --footer-language: #999999;
+    --dp-litle-designit: #a2d39b;
+    --border-litle-designit: #d1e9cd;
+    --dp-arizona: #61082b;
+    --dp-florida: #0093ce;
+    --dp-topps: #ff1c1c;
+    --dp-designit: #f5f5f5;
+    --dp-bicycle: #d5001f;
+    --dp-hearst: #b4d0e7;
+    --dp-lonely: #0d2481;
+    --dp-clear: #ffd830;
 
 }
 
@@ -282,7 +296,7 @@ button {
 
 /*---2nd section---*/
 .contact {
-    
+
 }
 .col-1-normal img {
     width: 100%;
@@ -316,9 +330,117 @@ button {
     border: 1px solid lightgray;
 }
 
-
 /*---End 2nd section---*/
 
+/*---3rd section---*/
+.col-6 {
+    width: calc(100% / 3);
+    padding-right: 2rem;
+}
 
+/*--- End 3rd section---*/
+.operation {
+    margin-top: 7rem;
+}
+.col-6 img {
+    width: 100%;
+}
 
+.col-6 p {
+    font-size: 9.5px;
+}
+
+.col-6 h4 {
+    padding-bottom: 1rem;
+}
+
+.row-3 {
+    margin-top: 1rem;
+}
+
+.col-business{
+    width:65%;
+}
+
+.row-3-large {
+      margin-top: 9rem;
+}
+
+.row-3-large h1 {
+    font-size: 25px;
+    padding-bottom: 2rem;
+}
+
+.row-3-large a {
+    font-size: 11px;
+}
+
+/*--- End 3rd section---*/
+
+/*4th section*/
+.row-big {
+    width: 100%;
+    height: 450px;
+}
+
+.col-9 {
+    width: calc(100% /3);
+    flex-wrap: wrap;
+}
+
+.square-4 {
+    width: calc(100% / 2);
+    padding: 2rem;
+}
+
+.imagel img {
+    width: 100%;
+    text-align: center;
+}
+
+.designit {
+    background-color: var(--dp-litle-designit);
+}
+
+.arizona {
+    background-color: var(--dp-arizona);
+}
+.florida {
+    background-color: var(--dp-florida);
+}
+
+.topps {
+    background-color: var(--dp-topps);
+}
+
+.bicycle {
+    background-color: var(--dp-bicycle);
+}
+
+.hearst {
+    background-color: var(--dp-hearst);
+}
+
+.lonely {
+    background-color: var(--dp-lonely);
+}
+
+.clear {
+    background-color: var(--dp-clear);
+}
+.center-square img  {
+    width: 60%;
+    padding: 2rem;
+
+}
+
+.center-square p {
+    padding: 1rem 2rem;
+    font-size: 13px;
+}
+
+.bg-square {
+    background-color: lightgrey;
+}
+/*end 4th section*/
 /*--------End Main----------*/
