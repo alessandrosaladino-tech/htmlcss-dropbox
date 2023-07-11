@@ -39,6 +39,10 @@ button {
     display: inline;
 }
 
+.p0 {
+    padding: 0;
+}
+
 /*end common*/
 
 /*header*/
@@ -274,9 +278,46 @@ button {
     font-size: 11px;
 }
 
-
-
 /*---End Section Find---*/
+
+/*---2nd section---*/
+.contact {
+    
+}
+.col-1-normal img {
+    width: 100%;
+    height: 100%;
+}
+
+.col-1-normal {
+    width: 57%;
+}
+
+.col-2-normal {
+    width: 43%;
+    text-align: left;
+    padding: 2rem;
+}
+
+.col-2-normal h4 {
+    font-size: 19px;
+}
+.col-2-normal p {
+    font-size: 13px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.col-2-normal a {
+    color: lightgray;
+    text-decoration: none;
+    font-size: 11px;
+    padding: 0.5rem;
+    border: 1px solid lightgray;
+}
+
+
+/*---End 2nd section---*/
 
 
 
