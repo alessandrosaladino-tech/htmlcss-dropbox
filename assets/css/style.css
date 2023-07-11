@@ -380,7 +380,7 @@ button {
 /*4th section*/
 .row-big {
     width: 100%;
-    height: 450px;
+    height: 400px;
 }
 
 .col-9 {
@@ -391,11 +391,16 @@ button {
 .square-4 {
     width: calc(100% / 2);
     padding: 2rem;
+    height: 50%;
 }
 
-.imagel img {
-    width: 100%;
-    text-align: center;
+.imagel img  {
+    width: 70%;
+    margin: auto;
+}
+
+.change-color {
+    fill: #d1e9cd;
 }
 
 .designit {
@@ -442,5 +447,15 @@ button {
 .bg-square {
     background-color: lightgrey;
 }
+
+.big-square {
+    margin-top: 5rem;
+}
 /*end 4th section*/
+
+
+
+
+
+
 /*--------End Main----------*/
