@@ -132,11 +132,11 @@ nav {
 /*---Jumbotron---*/
 .jumbotron {
     background-color: var(--dp-jumbo);
-    height: 470px;
+    height: 540px;
 }
 
 .jumbotron h1 {
-    font-size: 50px;
+    font-size: 55px;
     font-weight: 1000;
     padding-top: 50px;
 }
@@ -153,10 +153,9 @@ nav {
     font-size: 12px;
 }
 
-.col-j-l p,
-button {
-    margin-bottom: 14px;
-    margin-top: 15px;
+.col-j-l p {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
 
 .col-j-b {
@@ -165,14 +164,13 @@ button {
 }
 
 .col-j-b img {
-    width: 100%;
-    margin-top: 50px;
+    width: 120%;
+    margin-top: 63px;
 
 }
 
 #arrow {
-    font-size: 25px;
-    margin-top: 28px;
+    font-size: 30px;
 }
 
 /*---End Jumbotron---*/
@@ -444,6 +442,7 @@ button {
 
 .designit {
     background-color: var(--dp-litle-designit);
+    border: 10px solid var(--border-litle-designit);
 }
 
 .arizona {
