@@ -58,8 +58,12 @@ body {
     padding: 0;
 }
 
+.fsize {
+    font-size: 10px;
+}
+
 .button-blue:hover {
-        filter: opacity(0.7);
+    filter: opacity(0.7);
 }
 
 
@@ -116,7 +120,8 @@ nav {
     height: 28%;
 }
 
-.card-h:hover, .card-h-w:hover {
+.card-h:hover,
+.card-h-w:hover {
     border-bottom: 2px solid var(--dp-footer)
 }
 
@@ -245,6 +250,7 @@ button {
 .buy {
     margin-bottom: 1.5rem;
     font-size: 11px;
+    margin-top: 1.5rem;
 }
 
 .points {
@@ -293,11 +299,13 @@ button {
 .col-2 {
     width: 40%;
     text-align: right;
+    position: relative
 }
 
-.col-2 button {
-    margin-top: 1rem;
-    margin-right: 1rem;
+.col-2 .button-blue {
+    position: absolute;
+    right: 10%;
+    top: 10%;
 }
 
 .row {
@@ -340,6 +348,7 @@ button {
 .col-2-normal h4 {
     font-size: 19px;
 }
+
 .col-2-normal p {
     font-size: 13px;
     padding-top: 1rem;
@@ -354,6 +363,11 @@ button {
     border: 1px solid lightgray;
 }
 
+.col-2-normal a:hover {
+    background-color: var(--dp-footer);
+    color: var(--dp-page);
+}
+
 /*---End 2nd section---*/
 
 /*---3rd section---*/
@@ -366,6 +380,7 @@ button {
 .operation {
     margin-top: 7rem;
 }
+
 .col-6 img {
     width: 100%;
 }
@@ -382,12 +397,12 @@ button {
     margin-top: 1rem;
 }
 
-.col-business{
-    width:65%;
+.col-business {
+    width: 65%;
 }
 
 .row-3-large {
-      margin-top: 9rem;
+    margin-top: 9rem;
 }
 
 .row-3-large h1 {
@@ -418,7 +433,7 @@ button {
     height: 50%;
 }
 
-.imagel img  {
+.imagel img {
     width: 70%;
     margin: auto;
 }
@@ -434,6 +449,7 @@ button {
 .arizona {
     background-color: var(--dp-arizona);
 }
+
 .florida {
     background-color: var(--dp-florida);
 }
@@ -457,7 +473,8 @@ button {
 .clear {
     background-color: var(--dp-clear);
 }
-.center-square img  {
+
+.center-square img {
     width: 60%;
     padding: 2rem;
 
@@ -475,6 +492,7 @@ button {
 .big-square {
     margin-top: 5rem;
 }
+
 /*---end 4th section---*/
 
 /*---5th section---*/
@@ -485,6 +503,7 @@ button {
 .row-big-keep {
     width: 100%;
 }
+
 .col-title {
     width: 50%;
     color: var(--dp-arizona);
@@ -502,6 +521,11 @@ button {
     text-decoration: none;
     font-size: 13px;
     padding: 0.3rem 1.5rem;
+}
+
+.col-button a:hover{
+    background-color: var(--dp-footer);
+    color: var(--dp-page);
 }
 
 .keep {
@@ -554,7 +578,7 @@ button {
     padding: 2rem;
 }
 
-.faq-content i{
+.faq-content i {
     transition: rotate 0.5s;
 }
 
@@ -562,6 +586,7 @@ button {
     rotate: 180deg;
     padding-left: 1rem;
 }
+
 /*---End 6th section FAQ---*/
 
 /*--------End Main----------*/
@@ -622,4 +647,5 @@ footer {
     text-decoration: none;
     color: lightgray;
 }
+
 /*End Footer*/
