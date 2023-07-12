@@ -33,11 +33,11 @@ body {
 
 }
 
-button {
+.button-blue {
     background-color: var(--dp-button);
     border: none;
     color: white;
-    padding: 5px;
+    padding: 5px 15px;
 }
 
 .container {
@@ -69,6 +69,11 @@ header {
     top: 0;
 }
 
+.card-h a {
+    text-decoration: none;
+    color: var(--dp-footer);
+}
+
 nav {
     height: 80px;
 }
@@ -90,17 +95,25 @@ nav {
     justify-content: center;
 }
 
+.card-h-w {
+    height: 100%;
+    align-items: center;
+    padding: 10px;
+    font-size: 11px;
+    justify-content: center;
+}
+
+.card-h-w a {
+    text-decoration: none;
+    color: var(--dp-page);
+}
+
 .card-h img {
     height: 28%;
 }
 
-.card-h button {
-    background-color: var(--dp-button);
-    border: none;
-    width: 55px;
-    color: white;
-    padding: 5px;
-    margin: auto;
+.card-h:hover, .card-h-w:hover {
+    border-bottom: 2px solid var(--dp-footer)
 }
 
 /*end header*/
