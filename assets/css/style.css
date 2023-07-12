@@ -297,9 +297,6 @@ button {
 /*---End Section Find---*/
 
 /*---2nd section---*/
-.contact {
-
-}
 .col-1-normal img {
     width: 100%;
     height: 100%;
@@ -493,7 +490,58 @@ button {
     padding-top: 4.5rem;
 }
 
+/*---6th section FAQ---*/
+.faq {
+    margin-top: 7rem;
+}
 
+.answere {
+    display: none;
+}
 
+.question {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faq-content {
+    padding: 1rem 0;
+    border-bottom: 1px solid lightgray;
+    padding: 2rem 0;
+}
+
+.faq h3 {
+    border-bottom: 1px solid lightgrey;
+    padding: 3rem 0;
+    font-size: 25px;
+}
+
+.question>p {
+    font-weight: 700;
+}
+
+.faq-content>.question>i {
+    padding-right: 1rem;
+}
+
+.faq-content:hover .answere {
+    display: block;
+    padding: 2rem;
+}
+
+.faq-content i{
+    transition: rotate 0.5s;
+}
+
+.faq-content:hover i {
+    rotate: 180deg;
+    padding-left: 1rem;
+}
+/*---End 6th section FAQ---*/
 
 /*--------End Main----------*/
+
+/*Footer*/
+
+
+/*End Footer*/
