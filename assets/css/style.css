@@ -60,6 +60,10 @@ body {
 
 .fsize {
     font-size: 10px;
+    font-size: 10px;
+    width: 100%;
+    display: block;
+    text-align: center;
 }
 
 .button-blue:hover {
