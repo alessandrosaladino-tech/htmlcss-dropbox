@@ -62,6 +62,13 @@ button {
 /*end common*/
 
 /*header*/
+header {
+    background-color: var(--dp-page);
+    position: sticky;
+    z-index: 10;
+    top: 0;
+}
+
 nav {
     height: 80px;
 }
@@ -546,6 +553,7 @@ footer {
     background-color: var(--dp-footer);
     color: var(--dp-page);
     padding: 4rem 0;
+    margin-top: 6rem;
 }
 
 .footer-top h5 {
